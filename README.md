@@ -1,16 +1,18 @@
-# T-FLIPFLOP-POSEDGE
+# EXPERIMENT 09: IMPLEMENTATION OF T-FLIPFLOP USING VERILOG:
+## NAME : DIVYA LAKSHMI M
+## REGISTRATION NUMBER : 212224040082
 
-**AIM:**
+### AIM:
 
 To implement  T flipflop using verilog and validating their functionality using their functional tables
 
-**SOFTWARE REQUIRED:**
+### SOFTWARE REQUIRED:
 
 Quartus prime
 
-**THEORY**
+### THEORY:
 
-**T Flip-Flop**
+### T Flip-Flop:
 
 T flip-flop is the simplified version of JK flip-flop. It is obtained by connecting the same input ‘T’ to both inputs of JK flip-flop. It operates with only positive clock transitions or negative clock transitions. The circuit diagram of T flip-flop is shown in the following figure.
 
@@ -26,17 +28,32 @@ Here, Qtt & Qt+1t+1 are present state & next state respectively. So, T flip-flop
  
 From the above characteristic table, we can directly write the next state equation as Q(t+1)=T′Q(t)+TQ(t)′ ⇒Q(t+1)=T⊕Q(t)
 
-**Procedure**
+### PROCEDURE :
 
-/* write all the steps invloved */
+ 1. Type the program in Quartus software.
+ 2. Compile and run the program.
+ 3. Generate the RTL schematic and save the logic diagram.
+ 4. Create nodes for inputs and outputs to generate the timing diagram.
+ 5. For different input combinations generate the timing diagram
 
-**PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+### PROGRAM: 
 
-**RTL LOGIC FOR FLIPFLOPS**
+![WhatsApp Image 2024-12-09 at 4 06 05 PM](https://github.com/user-attachments/assets/631c8d2d-e705-435e-8843-fc2090325226)
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
 
-**RESULTS**
+### RTL LOGIC :
+
+![WhatsApp Image 2024-12-09 at 4 06 28 PM](https://github.com/user-attachments/assets/9dd6a158-02cb-4cf8-b842-c7b218e710b4)
+
+
+### RTL OUTPUT :
+
+![t wave](https://github.com/user-attachments/assets/a5529188-75b4-41b5-84fd-c4b39e0416c3)
+
+
+### RESULT:
+
+Thus we have implemented the T flipflop using verilog and validating their functionality using their functional tables
+
+ 
